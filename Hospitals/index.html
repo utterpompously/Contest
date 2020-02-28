@@ -7,7 +7,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -16,7 +19,7 @@
 	        <div class="row">
 	            <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
 	                <div class="top_left">
-	                    <p><span class="flaticon-phone"></span>24h Ärztenotdienst: 141</p> 
+	                    <p><span style="margin-right: 10px;"><i class="fas fa-phone"></i></span>24h Ärztenotdienst: 141</p>
 	                </div>
 	            </div>
 	            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
@@ -48,7 +51,7 @@
 	                    <ul>
 	                        <li>
 	                            <div class="icon_holder">
-	                                <span class="flaticon-technology"></span>
+	                                <i class="fas fa-mobile"></i>
 	                            </div>
 	                            <div class="text_holder text-center">
 	                                <h4>Termin vereinbaren</h4>
@@ -57,7 +60,7 @@
 	                        </li>
 	                        <li>
 	                            <div class="icon_holder">
-	                                <span class="flaticon-pin"></span>
+	                                <i class="fas fa-map-marker-alt"></i>
 	                            </div>
 	                            <div class="text_holder text-center">
 	                                <h4>Stadtplatz 46</h4>
@@ -66,7 +69,8 @@
 	                        </li>
 	                        <li>
 	                            <div class="icon_holder">
-	                                <span class="flaticon-agenda"></span>
+	                            	<i class="fa fa-calendar"></i>
+	                                
 	                            </div>
 	                            <div class="text_holder text-center">
 	                                <h4>Mo - Fr</h4>
@@ -153,9 +157,11 @@
 	                <div class="inner_content bg2">
 	                    <div class="title_box text-center"> 
 	                    	<h2>Ordinationszeiten</h2>
-	                        <p>Stadtplatz 46<br />
-	                        	4400 Steyr
-	                        </p>   	                       
+	                        <p>
+                        	Mo, Mi:	08:00 - 12:00<br />
+							Di, Do:	13:00 - 17:00<br />						
+							Fr:	08:00 - 12:00    <br />
+						  </p>     	                       
 	                    </div>                          
 	                </div>
 	                <div class="inner_content bg3">
@@ -181,7 +187,7 @@
 			        </div>
 	        	</div>
 	        </div>
-	        <div class="row mt-30">
+	        <div class="row mt-30 c_bootstrap">
                 <!--Start single item-->
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single_item">
@@ -198,11 +204,11 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single_item">
                     	<div class="icon">
-                    		<img src="image/mother-baby.png" alt="" width="90">
+                    		<i class="fas fa-home"></i> 
                     	</div>	
                     	<div class="text-holder">
-	                        <h3><a href="">Vorsorgeuntersuchungen</a></h3>
-	                        <p>How all this mistaken al idea of denouncing pleasure praisings pain was complete.</p>
+	                        <h3><a href="">Mutter-Kind-Untersuchungen</a></h3>
+	                        <p>Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
 	                    </div>
 	                    <a class="readmore" href="#">mehr</a>
                     </div>                          
@@ -213,7 +219,7 @@
                     		<i class="fas fa-envelope"></i>
                     	</div>	  
                     	<div class="text-holder">
-	                        <h3><a href="">Vorsorgeuntersuchungen</a></h3>
+	                        <h3><a href="">Führerscheinuntersuchungen</a></h3>
 	                        <p>How all this mistaken al idea of denouncing pleasure praisings pain was complete.</p>
 	                    </div>
 	                    <a class="readmore" href="#">mehr</a>
@@ -221,13 +227,14 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single_item">
-                    	<div class="icon">
+                    	<div class="icon c_flaticon">
                     		
-							<img src="image/neurology.png" alt="">
+							<span class="flaticon-brainstorm"></span> 
 
                     	</div>		  
-                    	<div class="img_holder">
-	                        <h3><a href="">Vorsorgeuntersuchungen</a></h3>
+                    	<div class="text-holder">
+	                        <h3><a href="">Therapie Aktiv
+</a></h3>
 	                        <p>How all this mistaken al idea of denouncing pleasure praisings pain was complete.</p>
 	                    </div>
 	                    <a class="readmore" href="#">mehr</a>
@@ -306,52 +313,81 @@
 	            <!--Start single item-->
 	            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 	                <div class="single-team-member">
-	                    <div class="img-holder">
-	                        <img src="image/doctor/1.jpg" alt="Awesome Image" />
-	                        <div class="text-holder text-center">
-	                            <h3>Marc Parcival</h3> 
-	                            <span>Newyork</span>   
-	                        </div>    
+	                    <div class="img-holder" style="background-image: url(image/doctor/1.jpg);">
+	                        <div class="icon">
+								<ul>
+									<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href=""><i class="fab fa-twitter"></i></a></li>
+									<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+	                        <div class="overlay"></div>	
+	                           
 	                    </div>
+	                    <div class="text-holder text-center">
+                            <h3>Marc Parcival</h3> 
+                            <span>Newyork</span>   
+                        </div> 
 	                </div>
 	            </div>
 	            <!--End single item-->
 	            <!--Start single item-->
 	            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 	                <div class="single-team-member">
-	                    <div class="img-holder">
-	                        <img src="image/doctor/2.jpg" alt="Awesome Image" />
-	                        <div class="text-holder text-center">
-	                            <h3>Marc Parcival</h3> 
-	                            <span>Newyork</span>   
-	                        </div>    
+	                    <div class="img-holder" style="background-image: url(image/doctor/2.jpg);">
+	                        <div class="icon">
+								<ul>
+									<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href=""><i class="fab fa-twitter"></i></a></li>
+									<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+	                        <div class="overlay"></div>	 
 	                    </div>
+	                    <div class="text-holder text-center">
+                            <h3>Marc Parcival</h3> 
+                            <span>Newyork</span>   
+                        </div> 
 	                </div>
 	            </div>
 	            <!--End single item-->
 	            <!--Start single item-->
 	            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 	                <div class="single-team-member">
-	                    <div class="img-holder">
-	                        <img src="image/doctor/3.jpg" alt="Awesome Image" />
-	                        <div class="text-holder text-center">
-	                            <h3>Marc Parcival</h3> 
-	                            <span>Newyork</span>   
-	                        </div>    
+	                    <div class="img-holder" style="background-image: url(image/doctor/3.jpg);">
+	                        <div class="icon">
+								<ul>
+									<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href=""><i class="fab fa-twitter"></i></a></li>
+									<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+                      	<div class="overlay"></div>	 
 	                    </div>
+	                    <div class="text-holder text-center">
+                            <h3>Marc Parcival</h3> 
+                            <span>Newyork</span>   
+                        </div>
 	                </div>
 	            </div>
 	            <!--End single item-->
 	            <!--Start single item-->
 	            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 	                <div class="single-team-member">
-	                    <div class="img-holder">
-	                        <img src="image/doctor/4.jpg" alt="Awesome Image" />
-	                        <div class="text-holder text-center">
-	                            <h3>Edgar Denzil</h3> 
-	                            <span>Newyork</span>   
-	                        </div>    
+	                    <div class="img-holder" style="background-image: url(image/doctor/1.jpg);">
+	                       <div class="icon">
+								<ul>
+									<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href=""><i class="fab fa-twitter"></i></a></li>
+									<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+	                         <div class="overlay"></div>	
 	                    </div>
+	                    <div class="text-holder text-center">
+                            <h3>Edgar Denzil</h3> 
+                            <span>Newyork</span>   
+                        </div>  
 	                </div>
 	            </div>
 	            <!--End single item-->
@@ -365,22 +401,24 @@
 				<div class="col-md-4">
 					<div class="box">
 						<div class="logo">
-							<img src="image/logo.png" alt="">
+							<img src="image/flogo.png" alt="footer logo">
 						</div>
 						<div class="text">
 							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur obcaecati doloribus deserunt iure hic, neque mollitia nobis veniam, quos voluptate corrupti molestias ea laudantium dolorum eius ex cupiditate porro, repudiandae!</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<div class="info">
 						<h3>Über Mich</h3>
 						<div class="f_border"></div>
 						<p class="text-justify">Nach der Matura begann ich in Wien mit dem Studium der Veterinärmedizin. Da ich nach erfolgreichem Abschluss noch das Gefühl hatte, dass etwas fehlen würde, begann ich neben dem Doktoratsstudium mit dem Studium der Humanmedizin, welches ich unter der Mindeststudienzeit im Dezember 2006 beendete.</p>
+						<div class="mt-30"></div>
+						<a href="" class="f_more">learn more</a>
 
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<div class="contact">
 						<h3>Kontakt</h3>
 						<div class="f_border"></div>
@@ -412,7 +450,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright-text text-center">
-                    <p>Copyright © 2020 DDr. Martina Altendorfer</p> 
+                    <p>Copyright © 2020 <a href="">DDr. Martina Altendorfer</a></p> 
                 </div>
             </div>
         </div>
