@@ -113,6 +113,9 @@ header .logo img{
 	float: left;
 	padding: 10px 20px;
 }
+.main_menu ul li:first-child{
+	padding-left: 0;
+}
 .main_menu a{
 	text-decoration: none;
 	color: #333;
@@ -494,6 +497,12 @@ header .logo img{
 	font-weight: bold;
 	border-top: 0;
 	
+}
+.single-team-member:hover .text-holder span{
+	color: #333;
+}
+.team_active .text-holder span{
+	color: #333;
 }
 .single-team-member:hover .icon{
 	visibility: visible;
