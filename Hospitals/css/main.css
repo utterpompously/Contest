@@ -69,6 +69,7 @@ header .logo img{
 	list-style-type: none;
 	margin-right: 20px;
 	padding: 0px 20px;
+	padding-right: 40px;
 	border-right: 2px solid #F3F3F0;
 }
 .header_right ul li:last-child{
@@ -85,7 +86,7 @@ header .logo img{
 }
 .icon_holder i{
 	font-size: 30px;
-	color: #333;
+	color: #0092E8;
 	margin-right: 15px;
 	margin-top: 3px;
 }
@@ -186,6 +187,12 @@ header .logo img{
     transition: ease .5s all;
 }
 .inner_content:hover{
+	background-color: #DDDDDB;
+	border: 2px solid red;
+	
+	color: #333;
+}
+.bg1{
 	background-color: #DDDDDB;
 	border: 2px solid red;
 	
@@ -472,6 +479,7 @@ header .logo img{
 	border-bottom: 130px solid #0092E8;
 	border-left: 262px solid transparent;
 }
+
 .single-team-member:hover .overlay{
 	visibility: visible;
 	-webkit-transition: ease .4s all;
@@ -507,6 +515,32 @@ header .logo img{
 }
 .single-team-member .text-holder h3{
 	margin-top: 0;
+}
+
+.team_active .text-holder{
+	background: #0092E8;
+	color: #333;
+	font-weight: bold;
+	border-top: 0;
+	
+}
+.team_active .overlay{
+	visibility: visible;
+	-webkit-transition: ease .4s all;
+    -moz-transition: ease .4s all;
+    -ms-transition: ease .4s all;
+    -o-transition: ease .4s all;
+    transition: ease .4s all;
+}
+.team_active .icon{
+	visibility: visible;
+	top: 64%;
+	-webkit-transition: ease .5s all;
+    -moz-transition: ease .5s all;
+    -ms-transition: ease .5s all;
+    -o-transition: ease .5s all;
+    transition: ease .5s all;
+    z-index: 9999999999;
 }
 footer{
 	width: 100%;
