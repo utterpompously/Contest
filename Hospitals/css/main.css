@@ -20,7 +20,10 @@ h1{
 }
 .top_bar .top_left{
 	float: left;
-	margin-top: 10px;
+	margin-top: 5px;
+}
+.top_left span i:before{
+	margin-left: 0;
 }
 .top_bar .top_right{
 	float: right;
@@ -80,6 +83,11 @@ header .logo img{
 .header_right h4{
 	color: #0092E8;
 	font-weight: 600;
+}
+.h_flaticon i:before{
+	font-size: 30px;
+	color: #00A3FF;
+	margin-left: 0;
 }
 .icon_holder{
 	float: left;
@@ -158,7 +166,7 @@ header .logo img{
 }
 .feature_image{
 	width: 100%;
-	height: 700px;
+	min-height: 636px;
 	background-image: url(../image/header.jpg);
 	   background-repeat: no-repeat;
     background-position: center center;
@@ -179,7 +187,7 @@ header .logo img{
 
 .inner_content{
 	width: 100%;
-	padding: 40px 10px;
+	padding: 30px 10px;
 	
 	background: #00A3FF;
 	color: #fff;
@@ -212,7 +220,10 @@ header .logo img{
 	margin-top: 50px;
 }
 .inner_content h2{
-	
+	margin-top: 0;
+}
+.inner_content p{
+	line-height: 25px;
 }
 .feature_image .left{
 	width: 70%;
